@@ -1,3 +1,3 @@
 # FirstSite.github.io
 
-[rainbow](https://firstsite.github.io/Rianbow/)
+[rainbow](https://AlexeyPugachev.github.io/FirstSite/)
