@@ -1,0 +1,268 @@
+
+*{
+  font-family: 'Fragment Mono', monospace;
+  color: #000000;
+}
+
+html, h1, h2, h3, h4, h5, h6 {
+  color: #000000;
+}
+body{
+  background: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+header{
+  padding: 20px 10px 0 10px;
+}
+header img.logo_1{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  margin: 0 auto;
+}
+header ul{
+  list-style-type: none;
+  float: right;
+
+  font-size: 17px;
+  font-weight: bold;
+}
+header ul li{
+  float: left;
+  position: relative;
+  display: inline-block;
+}
+header ul li p{
+  margin: -10px;
+  padding: 0px 10px;
+  font-family: 'Delicious Handrawn', cursive;
+  font-size: 24px;
+  color: #6c933e;
+  text-transform: capitalize;
+
+}
+header ul li p:hover{
+  opacity: 0.5;
+}
+header ul.menu_rec1 a{
+  text-decoration: none;
+}
+header ul.menu_rec1 img:hover{
+  opacity: 0.5;
+}
+
+header ul.menu_rec1 li{
+  display: block;
+  height: 10px;
+  width: auto;
+  margin-top: 20px;
+  padding: 0px;
+}
+header ul.menu_rec1 a img{
+  max-width: 25%;
+}
+
+header ul.menu_rec2 li a{
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 5px 15px;
+  border-bottom: 1px solid #fff;
+}
+header ul.menu_rec2 li a:hover{
+  background: #fff;
+  border-bottom: 1px solid #000;
+}
+header ul.menu_rec2 li a i{
+  border-left: 2px solid #000;
+  padding-left: 15px;
+}
+header ul.menu_rec2 li ul {
+  position: absolute;
+  top: 30px;
+  left: -40px;
+  padding-top: 15px;
+  background: #fff;
+  width: 190%;
+  z-index: 111;
+  display: none;
+}
+header ul.menu_rec2 li:hover ul {
+  display: block;
+}
+header ul.menu_rec2 li ul li{
+  width: 100%;
+}
+
+
+
+
+/* ----------------menu end-----RECEIPTES------------------*/
+
+article.random-recipe div a img{
+  display: block;
+  padding: 10px 10px 30px 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+article.random-recipe div a{
+  text-decoration: none;
+}
+
+article.random-recipe div a span{
+  display: block;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #000;
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Delicious Handrawn', cursive;
+  opacity: 0.9;
+}
+article.random-recipe div a span:hover{
+  font-size: 19px;
+}
+article.random-recipe div a h4{
+  padding: 0 10px;
+  text-align: center;
+  font-size: 18px;
+}
+article.random-recipe div a h4:hover{
+  opacity: 0.7;
+}
+/*-------------RECEIPETS end -----GET-THT-BOOK-------------*/
+
+section.get-the-book{
+  background-color: #fbf5e7;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 60px;
+
+}
+section.get-the-book div.shpinat {
+  display: inline-block;
+  height: 100px;
+  width: 160px;
+  float: left;
+}
+section.get-the-book div.shpinat img{
+  height: 200px;
+  margin: 30px 0px 0 50px;
+}
+section.get-the-book div.hungry{
+  padding-top: 20px;
+}
+section.get-the-book h4{
+  display: inline-block;
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  font-weight: lighter;
+  margin: 0;
+}
+section.get-the-book h4 span{
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: bold;
+}
+section.get-the-book h6{
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 17px;
+  margin: 0px;
+}
+section.get-the-book input[type="text"], section.get-the-book input[type="email"]{
+  width: 300px;
+  height: 45px;
+  border: none;
+  margin: 20px 15px;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+section.get-the-book button{
+  width: 190px;
+  height: 45px;
+  background-color: #f28320;
+  border: none;
+  margin: 20px 15px;
+  font-size: 17px;
+  font-family: sans-serif;
+  color: #fff;
+  position: relative;
+  cursor: pointer;
+}
+section.get-the-book button:hover{
+  background-color: #de4226;
+  transition: 0.3s;
+}
+/*---------- the latest------------------*/
+
+h5.zagolovok{
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #342f2e;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0px 0px 12px 0px;
+}
+/*----------------about nisha---------------------------*/
+section.nisha div.about-nisha{
+  background-color: #e8efe1;
+  box-sizing: border-box;
+  font-family: 'Fragment Mono', monospace;
+  position: relative;
+  margin-top: 70px;
+}
+.tomat{
+  position: absolute;
+  right: 5%;
+  top: -50px;
+}
+.tomat img{
+  width: 150px;
+}
+section.nisha div.foto-nisha-img img{
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.foto-nisha-img{
+  width: 45%;
+  height: auto;
+  overflow: hidden;
+  display: inline-block;
+
+}
+.content-nisha{
+  display: inline-block;
+  padding: 70px 60px;
+  width: 50%;
+  vertical-align: top;
+}
+
+.content-nisha h4{
+    font-family: 'Fragment Mono', monospace;
+  font-size: 21px;
+}
+.content-nisha h2{
+  font-size: 32px;
+  font-weight: 600;
+}
+.content-nisha p.text{
+  font-size: 20px;
+}
+.content-nisha p a{
+  font-family: 'Delicious Handrawn', cursive;
+  font-size: 35px;
+}
+
+
+
+
+
+
+/* -------------------------------------------*/
